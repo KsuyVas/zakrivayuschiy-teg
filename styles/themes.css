@@ -4,3 +4,17 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+
+  @media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #000000;
+    --accent-color: rgba(0, 204, 20, 1);
+    --font-weiht: 400;
+    --font-weiht-accent: 700;
+    --text-color: #00CC14;
+  }
+  }  
+
+   
+  
