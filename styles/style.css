@@ -87,15 +87,17 @@ text-transform: uppercase;
   position: relative;
 }
 
-.theme-menu__button {
+/* .theme-menu__item {
+width: fit-content;
+} */
 
+.theme-menu__button {
 background-color: transparent;
 border: none;
 text-transform: uppercase;
-padding-left: 25px;
+margin-inline-start: 25px;
 transition: 0.3s ease;
-
-
+width: fit-content;
 } 
 
 
