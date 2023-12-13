@@ -9,6 +9,7 @@
   --text-color: #000000;
   --font-weiht: 400;
   --font-weiht-accent: 700;
+  --color-zaliv: #FF0000;
   }
 
 
@@ -27,7 +28,7 @@
 .theme-light.page {
 
   --text-color: #000000;
-  --font: Integer;
+  --font: Inter;
   --font-accent: PressStart2P;
   --background-color: #ffffff;
   --accent-color: rgba(0, 0, 0, 0.6);
