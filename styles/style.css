@@ -357,17 +357,17 @@
 
 .like-icon.is-liked .heart {
   animation: heartbig 0.3s 0.1s ease-in;
-  transform-origin: 50%;
+  transform-origin: center; 
 }
 
 @keyframes heartbig {
 
   0% {
-    scale: 1;
+    transform: scale(1);
   }
 
   100% {
-    scale: 1.5;
+    transform: scale(1.5);
   }
 }
 
