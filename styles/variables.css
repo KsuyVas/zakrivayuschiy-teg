@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 
 :root {
-  --font: Inter-Variable;
+  --font: 'Inter-Variable';
   --font-accent: "PressStart2P";
   --background-color: #ffffff;
   --accent-color: #000000;
