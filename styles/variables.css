@@ -8,31 +8,7 @@
   --font-weight-accent: 700;
   --text-color: #000000;
   --font-weiht: 400;
-
   --color-zaliv: #FF0000;
   }
 
 
-
- .theme-dark.page {
- 
-
-  --background-color: #000000;
-  --accent-color: rgba(0, 204, 20, 1);
-  --font-weiht: 465;
-  --font-weight-accent: 785;
-  --text-color: #00CC14;
-
-}
-
-.theme-light.page {
-
-  --text-color: #000000;
-  --font: Inter;
-  --font-accent: PressStart2P;
-  --background-color: #ffffff;
-  --accent-color: rgba(0, 0, 0, 0.6);
-  --font-weiht: 400;
---font-weight-accent: 700;
-
-}

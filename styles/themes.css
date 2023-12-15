@@ -5,8 +5,7 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-
-  @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   :root {
     --background-color: #000000;
     --accent-color: rgba(0, 204, 20, 1);
@@ -14,7 +13,22 @@
     --font-weight-accent: 700;
     --text-color: #00CC14;
   }
-  }  
+}
 
-   
-  
+
+.theme-dark.page {
+  --background-color: #000000;
+  --accent-color: rgba(0, 204, 20, 1);
+  --font-weiht: 465;
+  --font-weight-accent: 785;
+  --text-color: #00CC14;
+
+}
+
+.theme-light.page {
+  --text-color: #000000;
+  --background-color: #ffffff;
+  --accent-color: rgba(0, 0, 0, 0.6);
+  --font-weiht: 400;
+  --font-weight-accent: 700;
+}
