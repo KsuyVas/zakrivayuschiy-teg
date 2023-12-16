@@ -4,11 +4,12 @@
   --font: 'Inter-Variable';
   --font-accent: "PressStart2P";
   --background-color: #ffffff;
-  --accent-color: #000000;
+  /* --accent-color: #000000; */
   --font-weight-accent: 700;
-  --text-color: #000000;
+  --main-color: #000000;
   --font-weiht: 400;
   --color-zaliv: #FF0000;
+   --fon-pattern: url(../svg/pattern-light.svg);
 }
 
 
