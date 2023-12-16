@@ -14,8 +14,7 @@
     --main-color: #00CC14;
   }
 
-.page
-{
+.page {
    --fon-pattern: url(../svg/pattern-dark.svg);
    /* background-image: url(../svg/pattern-dark.svg);  */
 }
@@ -40,5 +39,5 @@
   --font-weiht: 400;
   --font-weight-accent: 700;
   /* background-image: url(../svg/pattern-light.svg);  */
-    --fon-pattern: url(../svg/pattern-light.svg); 
+  --fon-pattern: url(../svg/pattern-light.svg); 
 }
