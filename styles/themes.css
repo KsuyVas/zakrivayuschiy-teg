@@ -38,6 +38,5 @@
   /*--accent-color: rgba(0, 0, 0, 0.6);   РАЗОБРАТЬСЯ!!!!! */
   --font-weiht: 400;
   --font-weight-accent: 700;
-  /* background-image: url(../svg/pattern-light.svg);  */
   --fon-pattern: url(../svg/pattern-light.svg); 
 }
