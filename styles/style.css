@@ -208,7 +208,7 @@
 }
 
 .button:focus {
-outline: none;
+  outline: none;
 }
 
 .button:focus-visible {
@@ -239,7 +239,8 @@ outline: none;
 }
 
 .button:hover::before {
-  animation: slideBgFromLeft 0.5s ease-in-out forwards; /*???? в рекомендация указано ease-in-out */
+  animation: slideBgFromLeft 0.5s ease-in-out forwards;
+  /*???? в рекомендация указано ease-in-out */
 
 }
 
@@ -278,7 +279,7 @@ outline: none;
   height: 36px;
   transition: 0.3s ease;
   cursor: pointer;
- }
+}
 
 .card__icon-button:focus {
   outline: none;
@@ -342,10 +343,10 @@ outline: none;
     min-width: 335px;
     min-height: 51px;
   }
-  
-.card-image {
-   right: -15px;
-}
+
+  .card-image {
+    right: -15px;
+  }
 
 
   .logo {

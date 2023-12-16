@@ -44,16 +44,13 @@
   }
 }
 
-
 .sparks {
   opacity: 0;
 }
 
-
 .core {
   transition: fill 0.3s 0.03s linear;
 }
-
 
 .card__icon-button:hover .core {
   fill: var(--main-color);
@@ -65,12 +62,10 @@
   transition: fill 0.3s 0s linear;
 }
 
-
 .card__icon-button:hover .main-body {
   fill: var(--main-color);
   transition: fill 0.3s 0.05s linear;
 }
-
 
 .card__icon-button:active .main-body {
   fill: var(--color-zaliv);
@@ -99,7 +94,8 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: sizeBigger 0.3s 0.1s linear;  /*???? в рекомендация указано ease-in */
+  animation: sizeBigger 0.3s 0.1s linear;
+  /*???? в рекомендация указано ease-in */
   transform-origin: center;
 }
 
@@ -113,10 +109,9 @@
   }
 }
 
-
-
 .like-icon.is-liked .sparks {
-  animation: appearSparks 0.3s 0.3s linear;    /*???? ease-in */
+  animation: appearSparks 0.3s 0.3s linear;
+  /*???? ease-in */
   transform-origin: 50%;
 }
 

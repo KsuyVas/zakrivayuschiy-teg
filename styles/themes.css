@@ -14,10 +14,10 @@
     --main-color: #00CC14;
   }
 
-.page {
-   --fon-pattern: url(../svg/pattern-dark.svg);
-   /* background-image: url(../svg/pattern-dark.svg);  */
-}
+  .page {
+    --fon-pattern: url(../svg/pattern-dark.svg);
+    /* background-image: url(../svg/pattern-dark.svg);  */
+  }
 }
 
 
@@ -27,8 +27,8 @@
   --font-weiht: 465;
   --font-weight-accent: 785;
   --main-color: #00CC14;
-  --fon-pattern: url(../svg/pattern-dark.svg); 
-   /* background-image: url(../svg/pattern-dark.svg);  */
+  --fon-pattern: url(../svg/pattern-dark.svg);
+  /* background-image: url(../svg/pattern-dark.svg);  */
 
 }
 
@@ -38,5 +38,5 @@
   /*--accent-color: rgba(0, 0, 0, 0.6);   РАЗОБРАТЬСЯ!!!!! */
   --font-weiht: 400;
   --font-weight-accent: 700;
-  --fon-pattern: url(../svg/pattern-light.svg); 
+  --fon-pattern: url(../svg/pattern-light.svg);
 }
