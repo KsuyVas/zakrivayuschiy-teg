@@ -21,14 +21,10 @@
   font-family: var(--font), sans-serif;
   background-color: var(--background-color);
   color: var(--main-color);
-  /* font-weight: var(--font-weiht); */
   font-variation-settings: 'wght' var(--font-weiht);
-  /* background-image: url(../svg/pattern-light.svg); */
   background-image: var(--fon-pattern);
   background-repeat: repeat;
   background-size: 4px;
-  /* background-repeat: space; */
-  /* background-attachment: fixed; */
 }
 
 .header {
@@ -49,13 +45,11 @@
 }
 
 .logo {
-
   margin-block-start: 120px;
   color: var(--main-color, #000);
   font-family: var(--font-accent), sans-serif;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   font-style: normal;
-  /* font-weight: var(--font-weight-accent); */
   line-height: normal;
   text-transform: uppercase;
   text-decoration: none;
@@ -97,7 +91,6 @@
   background-color: transparent;
   border: none;
   text-transform: uppercase;
-  /* margin-inline-start: 25px; */
   transition: 0.3s ease;
   position: relative;
   cursor: pointer;
@@ -119,8 +112,6 @@
 .theme-menu__button:focus-visible::after {
   animation: slideUnderlineFromLeft 0.3s ease forwards;
 }
-
-
 
 .theme-menu__button:focus {
   outline: none;
@@ -149,7 +140,6 @@
   color: var(--main-color, #000);
   font-family: var(--font);
   font-style: normal;
-  /* font-weight: var(--font-weight-accent); */
   font-variation-settings: 'wght' var(--font-weight-accent);
   line-height: normal;
   background-color: var(--background-color, #fff);
@@ -165,10 +155,6 @@
   position: relative;
   overflow: hidden;
   border: 2px solid var(--main-color);
-  /* background-image: url(../images/car.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position-x: 97%; */
 }
 
 
@@ -178,8 +164,6 @@
   height: 100%;
   right: -7px;
 }
-
-/* @media (375 < width<=696px) {} */
 
 .card-text {
   background-color: var(--background-color, #fff);
@@ -252,8 +236,6 @@
   color: var(--background-color);
 }
 
-
-
 .button__text {
   color: var(--main-color, #000);
   font-family: var(--font-accent);
@@ -289,7 +271,6 @@
   outline: 2px solid var(--main-color);
 }
 
-
 .save-icon {
   position: relative;
   z-index: 2;
@@ -300,18 +281,6 @@
   justify-content: center;
   padding: 54px 34px 102px 35px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media (width <=375px) {
 
@@ -356,7 +325,6 @@
   .save-icon {
     width: 21px;
     height: 21px;
-    /* viewBox: 0 0 21 21; */
   }
 
 }
