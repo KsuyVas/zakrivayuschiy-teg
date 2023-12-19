@@ -94,7 +94,7 @@
 }
 
 .like-icon.is-liked .heart {
-  animation: sizeBigger 0.3s 0.1s ease-in;
+  animation: sizeBigger 0.3s 0.1s ease-in 1 alternate;
   /*???? в рекомендация указано ease-in */
   transform-origin: center;
 }
@@ -110,7 +110,7 @@
 }
 
 .like-icon.is-liked .sparks {
-  animation: appearSparks 0.3s 0.3s ease-in;
+  animation: appearSparks 0.3s 0.3s ease-in 1 alternate;
   /*???? ease-in */
   transform-origin: 50%;
 }
