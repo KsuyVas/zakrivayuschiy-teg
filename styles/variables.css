@@ -8,7 +8,12 @@
   --main-color: #000000;
   --font-weiht: 400;
   --color-zaliv: #FF0000;
-   --fon-pattern: url(../svg/pattern-light.svg);
+   /* --fon-pattern: url(../svg/pattern-light.svg); */
+   --fon-gradient: repeating-linear-gradient(to right, #d3d3d3 2px, transparent 4px),
+   repeating-linear-gradient(#d3d3d3 2px, transparent 2px 4px),
+   linear-gradient(#e7e7e7, #1a1a1a); 
+   --stroke-color: #FFFFFF;
+   --button-text-color: #FFFFFF;
 }
 
 
