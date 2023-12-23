@@ -285,7 +285,7 @@
   background-color: var(--main-color);
   transform-origin: 0 0;
   transition: 0.5s ease-in-out;
-  transform: scale(0,1); 
+  transform: scale(0,1);
 }
 
 .button:hover::before {
