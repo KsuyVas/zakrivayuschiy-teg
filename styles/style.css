@@ -285,13 +285,11 @@
   background-color: var(--main-color);
   transform-origin: 0 0;
   transition: 0.5s ease-in-out;
-  /* scale: 0 1; */
   transform: scale(0,1); 
 }
 
 .button:hover::before {
-  /* scale: 1 1; */
-  transform: scale(1,1); 
+  transform: scale(1,1);
   transition: 0.5s ease-in-out;
 }
 
