@@ -11,10 +11,11 @@
     --font-weiht: 465;
     --font-weight-accent: 785;
     --main-color: #00CC14;
-  }
-
-  .page {
-    --fon-pattern: url(../svg/pattern-dark.svg);
+    --stroke-color: #000000;
+    --button-text-color: #00CC14;
+    --fon-gradient: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+    linear-gradient(#007f0c 0.01%, #004306);
   }
 }
 
@@ -24,7 +25,12 @@
   --font-weiht: 465;
   --font-weight-accent: 785;
   --main-color: #00CC14;
-  --fon-pattern: url(../svg/pattern-dark.svg);
+  /* --fon-pattern: url(../svg/pattern-dark.svg); */
+  --fon-gradient: repeating-linear-gradient(to right, #000 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(#000 0 2px, transparent 2px 4px),
+    linear-gradient(#007f0c 0.01%, #004306);
+  --stroke-color: #000000;
+  --button-text-color: #00CC14;
 }
 
 .theme-light.page {
@@ -32,5 +38,10 @@
   --background-color: #ffffff;
   --font-weiht: 400;
   --font-weight-accent: 700;
-  --fon-pattern: url(../svg/pattern-light.svg);
+  /* --fon-pattern: url(../svg/pattern-light.svg); */
+  --fon-gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+  repeating-linear-gradient(#d3d3d3 0 2px, transparent 2px 4px),
+  linear-gradient(#e7e7e7 0.01%, #1a1a1a);
+  --stroke-color: #FFFFFF;
+  --button-text-color: #FFFFFF;
 }
